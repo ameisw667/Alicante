@@ -1,6 +1,6 @@
 import React from 'react';
 import { logistics } from '../data/tripData';
-import { Plane, Car, Home, Calendar, Clock } from 'lucide-react';
+import { Plane, Car, Home } from 'lucide-react';
 
 const LogisticsTab: React.FC = () => {
   return (

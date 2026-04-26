@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Calendar, Package, MapPin, Info, Sun, Sparkles, Coins } from 'lucide-react';
+import { X, Calendar, Package, Info, Sun, Sparkles, Coins } from 'lucide-react';
 import { tripData } from '../data/tripData';
 import Countdown from './Countdown';
 import ItineraryTab from './ItineraryTab';

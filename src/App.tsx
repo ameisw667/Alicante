@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import VacationModal from './components/VacationModal';
 import { Plane, Calendar } from 'lucide-react';
 import './App.css';
