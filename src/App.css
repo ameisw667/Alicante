@@ -1,0 +1,80 @@
+.app-container {
+  background-image: linear-gradient(rgba(13, 17, 23, 0.6), rgba(13, 17, 23, 0.6)), url('/alicante_sunset_background.png');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #ffffff, #FEB47B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.trip-summary {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.summary-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--glass-border);
+}
+
+.icon-accent {
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .trip-summary {
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 20px;
+  }
+  
+  .summary-divider {
+    display: none;
+  }
+}
