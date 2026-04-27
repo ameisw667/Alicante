@@ -9,18 +9,18 @@ function App() {
   return (
     <div className="app-container">
       <div className="hero-content animate-fade-in">
-        <h1 className="hero-title">Alicante Escape 2026</h1>
+        <h1 className="hero-title">Alicante Angel x Jan 2026</h1>
         <p className="hero-subtitle">5 Days of Sun, Sport & Culture</p>
-        
+
         <div className="hero-actions">
-          <button 
-            className="btn-primary" 
+          <button
+            className="btn-primary"
             onClick={() => setIsModalOpen(true)}
           >
             <Calendar size={20} />
             View Itinerary
           </button>
-          
+
           <div className="trip-summary glass-card">
             <div className="summary-item">
               <Plane size={18} className="icon-accent" />
